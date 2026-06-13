@@ -2,7 +2,7 @@
 
 ## Connecting Ireland’s Low-Altitude Economy
 
-StratNode Infrastructure is an Irish low-altitude infrastructure originator focused on identifying, de-risking and commercialising future drone, UAS, VTOL/eVTOL and Innovative Air Mobility corridors.
+StrataNode Infrastructure is an Irish low-altitude infrastructure originator focused on identifying, de-risking and commercialising future drone, UAS, VTOL/eVTOL and Innovative Air Mobility corridors.
 
 This repository contains a working discussion paper intended to invite review, challenge and collaboration from aviation specialists, infrastructure partners, regulators, operators, investors and public-sector stakeholders.
 
