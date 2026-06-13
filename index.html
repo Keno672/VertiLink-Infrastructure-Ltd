@@ -342,47 +342,56 @@
       grid-template-columns: repeat(4, 1fr);
       gap: 20px;
     }
-    .c-card {
-      position: relative;
-      min-height: 285px;
-      padding: 30px 25px;
-      overflow: hidden;
-      border: 1px solid var(--border);
-      border-radius: 18px;
-      background: var(--white);
-      box-shadow: 0 12px 35px rgba(7, 31, 51, 0.07);
-    }
-    .c-number {
-      position: absolute;
-      top: 13px;
-      right: 18px;
-      color: rgba(7, 31, 51, 0.07);
-      font-size: 4.5rem;
-      font-weight: 900;
-      line-height: 1;
-    }
-    .c-card h3 {
-      position: relative;
-      margin: 48px 0 16px;
-      color: var(--navy);
-      font-size: 1.35rem;
-    }
-    .c-card p {
-      position: relative;
-      color: var(--grey);
-    }
-    .c-owner {
-      position: absolute;
-      right: 25px;
-      bottom: 25px;
-      left: 25px;
-      padding-top: 15px;
-      border-top: 1px solid var(--border);
-      color: var(--teal);
-      font-size: 0.82rem;
-      font-weight: 800;
-      text-transform: uppercase;
-    }
+   .c-card {
+position: relative;
+display: flex;
+min-height: 330px;
+padding: 30px 25px;
+overflow: hidden;
+flex-direction: column;
+border: 1px solid var(–border);
+border-radius: 18px;
+background: var(–white);
+box-shadow: 0 12px 35px rgba(7, 31, 51, 0.07);
+}
+
+.c-number {
+position: absolute;
+top: 13px;
+right: 18px;
+color: rgba(7, 31, 51, 0.07);
+font-size: 4.5rem;
+font-weight: 900;
+line-height: 1;
+}
+
+.c-card h3 {
+position: relative;
+margin: 48px 0 16px;
+color: var(–navy);
+font-size: 1.35rem;
+}
+
+.c-card p {
+position: relative;
+margin-bottom: 24px;
+color: var(–grey);
+}
+
+.c-owner {
+position: relative;
+right: auto;
+bottom: auto;
+left: auto;
+margin-top: auto;
+padding-top: 15px;
+border-top: 1px solid var(–border);
+color: var(–teal);
+font-size: 0.82rem;
+font-weight: 800;
+line-height: 1.25;
+text-transform: uppercase;
+}    
     .origin-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
